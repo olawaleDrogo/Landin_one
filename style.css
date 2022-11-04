@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    flex: 1;
+    background-color: aliceblue;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+}
+.padding{
+    padding: 20px 200px;
+}
+.samecolor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 40px;
+    font-weight: 900;
+}
+span{
+    color:darkred;
+}
+.links{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 25px;
+}
+.welcome{
+    
+    font-size: 15px;
+
+}
+.welcomescreen{
+    padding: 25px 200px;
+    color: white;
+    gap:50px;
+    
+}
+.button{
+    margin-top:10px;
+    padding: 10px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882f6;
+    border:2px solid white;
+    border-radius: 20px;
+    
+}
+.image{
+    height: 250px;
+    width: 3000x;
+}
+.content{
+    padding: 20px 250px;
+    margin: 25px 0 ;
+    text-align: center;
+}
+.content .heading{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+}
+.box_frame{
+    border: 3px solid #2882f5;
+    width: 100px;
+    height: 100px;
+    border-radius : 20px;
+}
+.test{
+    background-color: white;
+    height: 50vh;
+    
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 300px;
+    margin: 25px 0 ;
+}
+.test h1{
+    text-align: right;
+}
+.test p{
+    font-style: italic;
+}
+.callto{
+    background-color:#3882f6;
+    display: flex;
+    justify-content:space-between;
+    
+    gap: 30px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    color:white
+
+}
+.subh{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.footer{
+    padding: 20px 20px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
